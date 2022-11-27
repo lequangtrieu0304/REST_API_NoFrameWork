@@ -1,0 +1,22 @@
+{
+  "name": "rest_api_no_framework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha src/test --timeout 10000",
+    "dev": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "chai-http": "^4.3.0",
+    "mocha": "^10.1.0",
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "uuid": "^9.0.0"
+  }
+}
